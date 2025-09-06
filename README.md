@@ -20,4 +20,17 @@ Polylinguality(Java, JS and Python) Practices in Software Engineering
 | **Community Support**    | Strong enterprise and open-source backing  | Academic, scientific, and open-source       | Web dev, open-source, full-stack             |
 
 
+## Performance Benchmarks: Java vs Python vs JavaScript
+
+| Metric                  | Java                                 | Python                               | JavaScript                            |
+|-------------------------|---------------------------------------|---------------------------------------|----------------------------------------|
+| **Execution Speed**     | 🔥 High (compiled bytecode)           | 🐢 Low (interpreted)                  | ⚡ Moderate (JIT-compiled in V8)        |
+| **Startup Time**        | Moderate (JVM warm-up)                | Fast                                  | Instant (Node.js or browser)           |
+| **Memory Efficiency**   | Efficient with GC tuning              | Moderate (GC overhead)                | Lightweight for short-lived tasks      |
+| **Concurrency Model**   | Threads, ForkJoinPool, Virtual Threads| AsyncIO, multiprocessing              | Event loop, Promises, Web Workers      |
+| **I/O Performance**     | High with NIO and thread pools        | Moderate                              | Excellent for async I/O                |
+| **CPU-bound Tasks**     | Best suited for compute-intensive jobs| Slower due to interpreter overhead    | Decent, but not ideal for heavy compute|
+| **Latency Sensitivity** | Tunable with GC and thread configs    | Higher latency under load             | Low latency for event-driven flows     |
+| **Deployment Footprint**| Heavier (JVM, containerized)          | Lightweight for scripts               | Minimal (Node.js or browser runtime)   |
+
 
