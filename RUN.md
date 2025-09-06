@@ -24,3 +24,5 @@ Verify via Command Prompt:
     
     node -v
     npm -v
+
+<img width="752" height="362" alt="image" src="https://github.com/user-attachments/assets/4567c29c-32a9-4ee9-af57-ce495e1c537a" />
